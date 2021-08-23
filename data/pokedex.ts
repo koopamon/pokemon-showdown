@@ -1,36 +1,5 @@
 export const Pokedex: {[speciesid: string]: SpeciesData} = {
-	plantranha: {
-		num: 1000,
-		name: "Plantranha",
-		types: [
-		  "Grass"
-		],
-		genderRatio: {
-		  M: 0.75,
-		  F: 0.25
-		},
-		baseStats: {
-		  hp: 55,
-		  atk: 60,
-		  def: 50,
-		  spa: 65,
-		  spd: 50,
-		  spe: 40
-		},
-		abilities: {
-		  0: "Overgrow",
-		  H: "Sap Sipper"
-		},
-		heightm: 1.0,
-		weightkg: 52.7,
-		color: "Green",
-		eggGroups: [
-		  "Grass"
-		],
-		evos: [
-		  "Creeplant"
-		]
-	 },
+
 	bulbasaur: {
 		num: 1,
 		name: "Bulbasaur",
@@ -47,7 +16,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	ivysaur: {
 		num: 2,
 		name: "Ivysaur",
-		types: ["Grass", "Poison"],
+		types: ["Ice", "Poison"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 60, atk: 62, def: 63, spa: 80, spd: 80, spe: 60},
 		abilities: {0: "Overgrow", H: "Chlorophyll"},
